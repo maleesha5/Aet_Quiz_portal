@@ -1,0 +1,83 @@
+<form class="form-horizontal" role="form">
+    <h2>Add Question</h2>
+
+
+    <div class="form-group">
+        <label for="email" class="col-sm-3 control-label">Question</label>
+        <div class="col-sm-8">
+            <textarea class="form-control" placeholder="Enter Question" ng-model="question.body" autofocus></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="firstAnwer" class="col-sm-3 control-label">Answer 1</label>
+        <div class="col-sm-8">
+            <input type="text" id="firstAnwer" placeholder="Enter Answer 1" class="form-control" ng-model="answer1.body">
+        </div>
+        <div class="col-sm-1">
+            <div class="checkbox">
+                <input type="checkbox" id="answercheckbox" value="answer1" ng-model="answer1.isCorrect">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="answerTwo" class="col-sm-3 control-label">Answer 2</label>
+        <div class="col-sm-8">
+            <input type="answerTwo" id="answerTwo" placeholder="Enter Answer 2" class="form-control" ng-model="answer2.body">
+        </div>
+        <div class="col-sm-1">
+            <div class="checkbox">
+                <input type="checkbox" id="answercheckbox" value="answer1" ng-model="answer2.isCorrect">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="answerThree" class="col-sm-3 control-label">Answer 3</label>
+        <div class="col-sm-8">
+            <input type="answerThree" id="answerThree" placeholder="Enter Answer 3" class="form-control" ng-model="answer3.body">
+        </div>
+        <div class="col-sm-1">
+            <div class="checkbox">
+                <input type="checkbox" id="answercheckbox" value="answer1" ng-model="answer3.isCorrect">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="answerFour" class="col-sm-3 control-label">Answer 4</label>
+        <div class="col-sm-8">
+            <input type="answerFour" id="answerFour" placeholder="Enter Answer 4" class="form-control" ng-model="answer4.body">
+        </div>
+        <div class="col-sm-1">
+            <div class="checkbox">
+                <input type="checkbox" id="answercheckbox" value="answer1" ng-model="answer4.isCorrect">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="category" class="col-sm-3 control-label">Category</label>
+        <div class="col-sm-8">
+            <select id="category" class="form-control" ng-model="question.category">
+                            <option>IQ</option>
+                            <option>OOP</option>
+                            <option>Database</option>
+                            <option>QA</option>
+                            <option>Other</option>
+                        </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="firstAnwer" class="col-sm-3 control-label">Mark</label>
+        <div class="col-sm-4">
+            <input type="number" id="mark" class="form-control" ng-model="question.mark">
+        </div>
+
+    </div>
+    <div class="form-group">
+        <div class="col-sm-8 col-sm-offset-3">
+            <button type="submit" class="btn btn-primary btn-block" ng-click="save(question)">Save</button>
+        </div>
+    </div>
+    <!-- /form -->
+</form>
+</div>
+<link href="styles/register.css" rel="stylesheet">

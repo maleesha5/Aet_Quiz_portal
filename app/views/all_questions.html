@@ -1,0 +1,38 @@
+<div ng-controller="AllQuestionsCtrl as controller">
+    <form class="form-inline well well-sm clearfix">
+        <span class="glyphicon glyphicon-search"></span>
+        <input type="text" placeholder="Search.." 
+        class="form-control" ng-model="controller.search">
+    </form>
+    <div class="row">
+        <div class="col-sm-6" ng-repeat="newModel in controller.models | filter:controller.search">
+            <div class="well well-sm">
+                <div class="row">
+                <div class="col-md-6">
+                    
+                    <h4>{{newModel.body}}</h4>
+                    <p><strong></strong></p>
+                    <p><strong></strong></p>
+                    <p><strong></strong></p>
+                    <button class="btn btn-primary pull-right"
+                    data-toggle="modal"
+                    data-target="#question-info"
+                    ng-click="">Edit</button>                    
+                </div>
+            </div>
+            </div>
+            </div>
+    </div>
+    <div class="modal" id="question-info">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-heder">
+                    <h2></h2>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
