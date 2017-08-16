@@ -2,8 +2,5 @@
 **/node_modules/**/*
 **/tmp/**/*
 **/app/bower_components/**/*
-<<<<<<< HEAD
-=======
 **/bower_components/**/*
->>>>>>> 9aa0194f8e01b85c6344f543c69f6acc0a5c34fd
 **/.project

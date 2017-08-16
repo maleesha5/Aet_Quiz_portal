@@ -6,18 +6,18 @@ angular.module('aeturnumQuizProjectPortalApp')
         $scope.answer2 = new Answer();
         $scope.answer3 = new Answer();
         $scope.answer4 = new Answer();
-        
+
         $scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
 
         $scope.save = function(questionPassed) {
             $log.log(questionPassed);
             $log.log(questionPassed.answers.length);
-            
+
             /* questionEndpoint.saveQuestion(question).then(function(response) {
                  return response;
              })*/
 
-            var saveQuestionUrl = "http://127.0.0.1:8080/Aeturnum_quiz/save_question";
+            var saveQuestionUrl = "http://127.0.0.1:9090/Aeturnum_quiz/save_question";
             $http.post(saveQuestionUrl, questionPassed);
 
         };
