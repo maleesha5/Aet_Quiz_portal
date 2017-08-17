@@ -3,44 +3,23 @@ angular.module('aeturnumQuizProjectPortalApp')
 
         console.log("addQuestionCntrl " + editQuestion);
 
-        //$scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
         $scope.question = new Question();
 
         if (editQuestion === null) {
 
-            //var values = {name: 'misko', gender: 'male'};
-            var log = [];
-            var key = "answer"
-            angular.forEach($scope.question.answers, function(value, key) {
-                this.push(new Answer());
-            }, log);
-            console.log("******" + $scope.question.answers);
+            $scope.question.answers = [new Answer(), new Answer(), new Answer(), new Answer()];
 
-
-            /* $scope.answer1 = new Answer();
-             $scope.answer2 = new Answer();
-             $scope.answer3 = new Answer();
-             $scope.answer4 = new Answer();*/
-
-            //$scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
+            console.log("******");
+            console.log($scope.question.answers);
 
         } else {
 
             $scope.question = editQuestion;
         }
 
-        console.log("merged question object " + $scope.question);
-
-
-
-
         $scope.save = function(questionPassed) {
             $log.log(questionPassed);
             $log.log(questionPassed.answers.length);
-
-            /* questionEndpoint.saveQuestion(question).then(function(response) {
-                 return response;
-             })*/
 
             var saveQuestionUrl = "http://127.0.0.1:9090/Aeturnum_quiz/save_question";
             $http.post(saveQuestionUrl, questionPassed);
@@ -74,7 +53,7 @@ angular.module('aeturnumQuizProjectPortalApp')
 
     function Answer() {
         this.body = undefined;
-        this.isCorrect = undefined;
+        this.isCorrect = false;
     }
 
     return Answer;

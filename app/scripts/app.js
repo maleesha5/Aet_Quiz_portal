@@ -38,6 +38,11 @@ angular
             .when('/addQuestion', {
                 templateUrl: 'views/addQuestion.html',
                 controller: 'questionController',
+                resolve: {
+                    editQuestion: function() {
+                        return null;
+                    }
+                }
             })
             .when('/test', {
                 templateUrl: 'views/test.html',
