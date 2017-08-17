@@ -15,7 +15,8 @@ angular
         'ngResource',
         'ngRoute',
         'ngSanitize',
-        'ngTouch'
+        'ngTouch',
+        'ui.bootstrap'
     ])
     .config(function($routeProvider) {
         $routeProvider
@@ -39,18 +40,18 @@ angular
                 controller: 'questionController',
             })
             .when('/test', {
-              templateUrl: 'views/test.html',
-              controller: 'TestCtrl',
-              controllerAs: 'test'
+                templateUrl: 'views/test.html',
+                controller: 'TestCtrl',
+                controllerAs: 'test'
             })
             .when('/allQuestions', {
                 templateUrl: 'views/all_questions.html',
                 controller: 'AllQuestionsCtrl',
-              })
+            })
             .when('/question_paper', {
-              templateUrl: 'views/question_paper.html',
-              controller: 'QuestionPaperCtrl',
-              controllerAs: 'questionPaper'
+                templateUrl: 'views/question_paper.html',
+                controller: 'QuestionPaperCtrl',
+                controllerAs: 'questionPaper'
             })
             .otherwise({
                 redirectTo: '/'

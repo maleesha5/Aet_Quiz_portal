@@ -8,103 +8,131 @@
  * Controller of the aeturnumQuizProjectPortalApp
  */
 angular.module('aeturnumQuizProjectPortalApp')
-  .controller('QuestionPaperCtrl', function ($scope) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    .controller('QuestionPaperCtrl', function($scope) {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
 
-    $scope.activeQuestion = undefined;
+        $scope.activeQuestion = undefined;
 
-    $scope.selectAnswer = function(indexChild, indexParent){
-      console.log("Current Index is " + indexChild);
-      console.log("Parent Index is " + indexParent);
+        $scope.selectAnswer = function(indexChild, indexParent) {
+            console.log("Current Index is " + indexChild);
+            console.log("Parent Index is " + indexParent);
 
-      $scope.questions[indexParent].selected = indexChild;
-      
-    }
+            $scope.questions[indexParent].selected = indexChild;
 
-    $scope.questions =[ {
-      type: "text",
-      text: "Whats the Name of first men",
-      answers: [
-        {
-          answer : "John Snow"
-        },
-        {
-          answer : "Daenerys Targaryan"
-        },
-        {
-          answer : "Randall Tarly"
-        },
-        {
-          answer : "Lord Varys"
         }
-      ],
-      selected: null,
-      correct: null
-    },
-    {
-      type: "text",
-      text: "Whats the time now?",
-      answers: [
-        {
-          answer : "9.15 p.m"
-        },
-        {
-          answer : "5.55 a.m"
-        },
-        {
-          answer : "10.27 p.m"
-        },
-        {
-          answer : "11.55 p.m"
-        }
-      ],
-      selected: null,
-      correct: null
-    },
-    {
-      type: "text",
-      text: "Which is not a Auto mobile brand?",
-      answers: [
-        {
-          answer : "Honda"
-        },
-        {
-          answer : "Toyota"
-        },
-        {
-          answer : "Apple"
-        },
-        {
-          answer : "Ford"
-        }
-      ],
-      selected: null,
-      correct: null
-    },
-    {
-      type: "text",
-      text: "How are you feeling Today?",
-      answers: [
-        {
-          answer : "Felling Fine!"
-        },
-        {
-          answer : "Not Good!"
-        },
-        {
-          answer : "Fucked UP!"
-        },
-        {
-          answer : "Doing Great!"
-        }
-      ],
-      selected: null,
-      correct: null
-    }
-  ];
 
-  });
+        $scope.questions = [{
+                type: "text",
+                body: "Whats the Name of first men",
+                answers: [{
+                        body: "John Snow",
+                        isCorrect: false
+                    },
+                    {
+                        body: "Daenerys Targaryan",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Randall Tarly",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Lord Varys",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Whats the time now?",
+                answers: [{
+
+                        body: "9.15 p.m",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "5.55 a.m",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "10.27 p.m",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "11.55 p.m",
+                        isCorrect: false
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "How are you feeling Today?",
+                answers: [{
+                        body: "Felling Fine!",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Not Good!",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Feeling Sick!",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Doing Great!",
+                        isCorrect: false
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            }
+        ];
+
+    });

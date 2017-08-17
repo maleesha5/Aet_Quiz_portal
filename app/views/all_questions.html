@@ -4,16 +4,20 @@
         <input type="text" placeholder="Search.." class="form-control" ng-model="search">
     </form>
     <div class="row">
-        <div class="col-sm-12" ng-repeat="question in questionsList | filter:search">
+        <div class="col-sm-12" ng-repeat="question in questions | filter:search">
             <div class="well well-sm">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-sm-12">
 
-                        <h4>{{question.body}}</h4>
+                        <h4>{{$index + 1}}. {{question.body}}</h4>
                         <div ng-repeat="answer in question.answers">
-                            <p>{{$index + 1}}. {{answer.body}}</p>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p class="answerEdit">{{$index + 1}}. {{answer.body}}</p>
+                                </div>
+                            </div>
                         </div>
-                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#question-info" ng-click="">Edit</button>
+                        <button class="btn btn-primary pull-right" ng-click="open(null, null, $index)">Edit</button>
                     </div>
                 </div>
             </div>
