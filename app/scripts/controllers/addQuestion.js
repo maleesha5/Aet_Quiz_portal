@@ -3,7 +3,8 @@ angular.module('aeturnumQuizProjectPortalApp')
 
         console.log("addQuestionCntrl " + editQuestion);
 
-        $scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
+        //$scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
+        $scope.question = new Question();
 
         if (editQuestion === null) {
 
@@ -11,16 +12,17 @@ angular.module('aeturnumQuizProjectPortalApp')
             var log = [];
             var key = "answer"
             angular.forEach($scope.question.answers, function(value, key) {
-                this.push(key + ': ' + value);
+                this.push(new Answer());
             }, log);
+            console.log("******" + $scope.question.answers);
 
-            $scope.question = new Question();
-            $scope.answer1 = new Answer();
-            $scope.answer2 = new Answer();
-            $scope.answer3 = new Answer();
-            $scope.answer4 = new Answer();
 
-            $scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
+            /* $scope.answer1 = new Answer();
+             $scope.answer2 = new Answer();
+             $scope.answer3 = new Answer();
+             $scope.answer4 = new Answer();*/
+
+            //$scope.question.answers = [$scope.answer1, $scope.answer2, $scope.answer3, $scope.answer4];
 
         } else {
 
