@@ -1,5 +1,7 @@
 <div ng-controller="TestCtrl as $ctrl" class="modal-demo">
     <p>This is the test view.</p>
-    <timer />
+
+    <timer countdown="59" interval="1000" finish-callback="$ctrl.open()">{{seconds}} second{{secondsS}}</timer>
+    <!-- ************************************************ -->
     <button type="button" class="btn btn-default" ng-click="$ctrl.open()">Open me!</button>
 </div>
