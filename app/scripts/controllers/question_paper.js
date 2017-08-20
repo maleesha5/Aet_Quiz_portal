@@ -132,6 +132,1253 @@ angular.module('aeturnumQuizProjectPortalApp')
                 ],
                 selected: null,
                 correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Honda",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                body: "Which is not a Auto mobile brand?",
+                answers: [{
+                        body: "Honda",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Toyota",
+                        isCorrect: true
+
+                    },
+                    {
+                        body: "Apple",
+                        isCorrect: false
+
+                    },
+                    {
+                        body: "Ford",
+                        isCorrect: true
+
+                    }
+                ],
+                selected: null,
+                correct: null
             }
         ];
 

@@ -59,6 +59,11 @@ angular
                 controller: 'QuestionPaperCtrl',
                 controllerAs: 'questionPaper'
             })
+            .when('/register', {
+                templateUrl: 'views/register.html',
+                controller: '',
+                controllerAs: ''
+            })
             .otherwise({
                 redirectTo: '/'
             });
