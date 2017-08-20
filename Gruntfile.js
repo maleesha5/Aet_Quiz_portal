@@ -443,7 +443,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:maleesha5/Aet_Quiz_portal.git',
+          remote: 'https://github.com/maleesha5/Aet_Quiz_portal.git',
           branch: 'gh-pages'
         }
       },
