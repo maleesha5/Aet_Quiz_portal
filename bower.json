@@ -11,7 +11,8 @@
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
     "angular-bootstrap":"latest",
-    "angular-timer":"latest"
+    "angular-timer":"latest",
+    "compass":"latest"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

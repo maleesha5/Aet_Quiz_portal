@@ -447,9 +447,7 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
   
-  grunt.registerTask('heroku',
-  ['compass:dist', 'autoprefixer', 'imagemin'
-  ]);
+  grunt.registerTask('heroku:development', 'clean less mincss');
 
   grunt.registerTask('test', [
     'clean:server',
