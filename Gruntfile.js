@@ -12,6 +12,10 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  //require('load-grunt-tasks')(grunt);
+  grunt.loadNpmTasks('grunt-build-control');
+  
+
   // Project configuration.
   var pkg = require('./package.json');
 
@@ -420,6 +424,15 @@ module.exports = function (grunt) {
       ]
     },
 
+    
+
+    // Test settings
+    karma: {
+      unit: {
+        configFile: 'test/karma.conf.js',
+        singleRun: true
+      }
+    },
     //*********/
     buildcontrol: {
       options: {
@@ -446,14 +459,6 @@ module.exports = function (grunt) {
           remote: '../',
           branch: 'build'
         }
-      }
-    },
-
-    // Test settings
-    karma: {
-      unit: {
-        configFile: 'test/karma.conf.js',
-        singleRun: true
       }
     }
   });
