@@ -484,7 +484,7 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
   
- grunt.registerTask('heroku', 'clean less mincss');
+ //grunt.registerTask('heroku', 'clean less mincss');
 
   grunt.registerTask('test', [
     'clean:server',

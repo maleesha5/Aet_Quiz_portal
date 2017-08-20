@@ -33,10 +33,6 @@ module.exports = function(config) {
       'bower_components/moment/moment.js',
       'bower_components/humanize-duration/humanize-duration.js',
       'bower_components/angular-timer/dist/angular-timer.js',
-      'bower_components/d3/d3.js',
-      'bower_components/vega/vega.js',
-      'bower_components/vega-lite/vega-lite.js',
-      'bower_components/compass/compass.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
