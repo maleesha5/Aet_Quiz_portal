@@ -21,7 +21,7 @@ angular.module('aeturnumQuizProjectPortalApp')
             $log.log(questionPassed);
             $log.log(questionPassed.answers.length);
 
-            var saveQuestionUrl = "http://127.0.0.1:9090/Aeturnum_quiz/save_question";
+            var saveQuestionUrl = "https://aeturnum_quiz.cfapps.io/Aeturnum_quiz/save_question";
             $http.post(saveQuestionUrl, questionPassed);
 
         };

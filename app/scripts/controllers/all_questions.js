@@ -8,12 +8,6 @@
  * Controller of the aeturnumQuizProjectPortalApp
  */
 angular.module('aeturnumQuizProjectPortalApp')
-    .config(function($httpProvider) { // provider-injector
-        $httpProvider.defaults.headers.common = {};
-        $httpProvider.defaults.headers.post = {};
-        $httpProvider.defaults.headers.put = {};
-        $httpProvider.defaults.headers.patch = {};
-    })
     .controller('AllQuestionsCtrl', function($scope, $http, $uibModal, $log, $document) {
 
         var url = "https://aeturnum_quiz.cfapps.io/Aeturnum_quiz/get_all_questions";
