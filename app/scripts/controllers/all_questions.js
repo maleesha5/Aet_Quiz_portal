@@ -16,7 +16,7 @@ angular.module('aeturnumQuizProjectPortalApp')
     })
     .controller('AllQuestionsCtrl', function($scope, $http, $uibModal, $log, $document) {
 
-        var url = "http://localhost:9090/Aeturnum_quiz/get_all_questions";
+        var url = "https://aeturnum_quiz.cfapps.io/Aeturnum_quiz/get_all_questions";
 
         $http.get(url)
             .then(function(response) {
