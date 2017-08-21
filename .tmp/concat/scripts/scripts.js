@@ -116,12 +116,12 @@ angular.module('aeturnumQuizProjectPortalApp')
 angular.module('aeturnumQuizProjectPortalApp')
     .controller('AllQuestionsCtrl', ["$scope", "$http", "$uibModal", "$log", "$document", function($scope, $http, $uibModal, $log, $document) {
 
-        /*var url = "http://localhost:9090/Aeturnum_quiz/get_all_questions";
+        var url = "http://localhost:9090/Aeturnum_quiz/get_all_questions";
 
         $http.get(url)
             .then(function(response) {
-                $scope.questionsList = response.data;
-            });*/
+                $scope.questions = response.data;
+            });
 
         var $ctrl = this;
         $ctrl.items = ['item1', 'item2', 'item3'];
@@ -148,9 +148,11 @@ angular.module('aeturnumQuizProjectPortalApp')
             });
         }
 
-        $scope.questions = [{
+        /*$scope.questions = [{
                 type: "text",
                 body: "Whats the Name of first men",
+                category: "OOP",
+                mark: 10,
                 answers: [{
                         body: "John Snow",
                         isCorrect: false
@@ -256,7 +258,7 @@ angular.module('aeturnumQuizProjectPortalApp')
                 selected: null,
                 correct: null
             }
-        ];
+        ];*/
 
     }]);
 'use strict';
