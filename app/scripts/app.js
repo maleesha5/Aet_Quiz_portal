@@ -23,28 +23,32 @@ angular
     .config(function($stateProvider) {
         $stateProvider
             .state('test', {
-                url: "/test",
-                templateUrl: 'test.html',
+                url: '/test',
+                templateUrl: 'views/test.html',
                 controller: 'TestCtrl',
                 controllerAs: 'test'
 
-            });
-        /*.when('/', {
+            })
+        .state('/', {
+            url: '/',            
             templateUrl: 'views/main.html',
             controller: 'MainCtrl',
             controllerAs: 'main'
         })
-        .when('/about', {
+        .state('/about', {
+            url: '/about',
             templateUrl: 'views/about.html',
             controller: 'AboutCtrl',
             controllerAs: 'about'
         })
-        .when('/login', {
+        .state('/login', {
+            url: '/login',            
             templateUrl: 'views/signin.html',
             controller: 'AboutCtrl',
             controllerAs: 'about'
         })
-        .when('/addQuestion', {
+        .state('/addQuestion', {
+            url: '/addQuestion',                        
             templateUrl: 'views/addQuestion.html',
             controller: 'questionController',
             resolve: {
@@ -53,26 +57,21 @@ angular
                 }
             }
         })
-        .when('/test', {
-            templateUrl: 'views/test.html',
-            controller: 'TestCtrl',
-            controllerAs: 'test'
-        })
-        .when('/allQuestions', {
+        .state('/allQuestions', {
+            url: '/allQuestions',                                    
             templateUrl: 'views/all_questions.html',
             controller: 'AllQuestionsCtrl',
         })
-        .when('/question_paper', {
+        .state('/question_paper', {
+            url: '/question_paper',                                    
             templateUrl: 'views/question_paper.html',
             controller: 'QuestionPaperCtrl',
             controllerAs: 'questionPaper'
         })
-        .when('/register', {
+        .state('/register', {
+            url: '/register',                                    
             templateUrl: 'views/register.html',
             controller: '',
             controllerAs: ''
-        })
-        .otherwise({
-            redirectTo: '/'
-        });*/
+        });
     });
