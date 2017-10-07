@@ -7,7 +7,7 @@
  * # myDirective
  */
 angular.module('aeturnumQuizProjectPortalApp')
-  .directive('myDirective', function () {
+  .directive('myDirective', () => {
     return {
       template: '<div></div>',
       restrict: 'E',

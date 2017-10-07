@@ -8,39 +8,38 @@
  * Controller of the aeturnumQuizProjectPortalApp
  */
 angular.module('aeturnumQuizProjectPortalApp')
-    .controller('AllQuestionsCtrl', function($scope, $http, $uibModal, $log, $document) {
-
-        var url = "https://aeturnum_quiz.cfapps.io/Aeturnum_quiz/get_all_questions";
+    .controller('AllQuestionsCtrl', function ($scope, $http, $uibModal, $log, $document) {
+        const url = 'https://aeturnum_quiz.cfapps.io/Aeturnum_quiz/get_all_questions';
 
         $http.get(url)
-            .then(function(response) {
+            .then((response) => {
                 $scope.questions = response.data;
             });
 
-        var $ctrl = this;
+        const $ctrl = this;
         $ctrl.items = ['item1', 'item2', 'item3'];
 
         $ctrl.animationsEnabled = true;
 
-        $scope.open = function(size, parentSelector, questionIndex) {
+        $scope.open = function (size, parentSelector, questionIndex) {
             console.log(questionIndex);
-            var parentElem = parentSelector ?
-                angular.element($document[0].querySelector('.modal-demo ' + parentSelector)) : undefined;
-            var modalInstance = $uibModal.open({
+            const parentElem = parentSelector ?
+                angular.element($document[0].querySelector(`.modal-demo ${parentSelector}`)) : undefined;
+            const modalInstance = $uibModal.open({
                 animation: $ctrl.animationsEnabled,
                 ariaLabelledBy: 'modal-title',
                 ariaDescribedBy: 'modal-body',
                 templateUrl: 'views/addQuestion.html',
                 controller: 'questionController',
-                size: size,
+                size,
                 appendTo: parentElem,
                 resolve: {
-                    editQuestion: function() {
+                    editQuestion() {
                         return $scope.questions[questionIndex];
                     }
                 }
             });
-        }
+        };
 
         /*$scope.questions = [{
                 type: "text",
@@ -153,5 +152,4 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             }
         ];*/
-
     });

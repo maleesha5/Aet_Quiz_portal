@@ -8,7 +8,7 @@
  * Controller of the aeturnumQuizProjectPortalApp
  */
 angular.module('aeturnumQuizProjectPortalApp')
-    .controller('QuestionPaperCtrl', function($scope) {
+    .controller('QuestionPaperCtrl', function ($scope) {
         this.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
@@ -17,33 +17,32 @@ angular.module('aeturnumQuizProjectPortalApp')
 
         $scope.activeQuestion = undefined;
 
-        $scope.selectAnswer = function(indexChild, indexParent) {
-            console.log("Current Index is " + indexChild);
-            console.log("Parent Index is " + indexParent);
+        $scope.selectAnswer = function (indexChild, indexParent) {
+            console.log('Current Index is ' + indexChild);
+            console.log('Parent Index is ' + indexParent);
 
             $scope.questions[indexParent].selected = indexChild;
-
-        }
+        };
 
         $scope.questions = [{
-                type: "text",
-                body: "Whats the Name of first men",
+                type: 'text',
+                body: 'Whats the Name of first men',
                 answers: [{
-                        body: "John Snow",
+                        body: 'John Snow',
                         isCorrect: false
                     },
                     {
-                        body: "Daenerys Targaryan",
+                        body: 'Daenerys Targaryan',
                         isCorrect: false
 
                     },
                     {
-                        body: "Randall Tarly",
+                        body: 'Randall Tarly',
                         isCorrect: true
 
                     },
                     {
-                        body: "Lord Varys",
+                        body: 'Lord Varys',
                         isCorrect: true
 
                     }
@@ -52,26 +51,26 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Whats the time now?",
+                type: 'text',
+                body: 'Whats the time now?',
                 answers: [{
 
-                        body: "9.15 p.m",
+                        body: '9.15 p.m',
                         isCorrect: true
 
                     },
                     {
-                        body: "5.55 a.m",
+                        body: '5.55 a.m',
                         isCorrect: true
 
                     },
                     {
-                        body: "10.27 p.m",
+                        body: '10.27 p.m',
                         isCorrect: false
 
                     },
                     {
-                        body: "11.55 p.m",
+                        body: '11.55 p.m',
                         isCorrect: false
 
                     }
@@ -80,25 +79,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -107,25 +106,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "How are you feeling Today?",
+                type: 'text',
+                body: 'How are you feeling Today?',
                 answers: [{
-                        body: "Felling Fine!",
+                        body: 'Felling Fine!',
                         isCorrect: false
 
                     },
                     {
-                        body: "Not Good!",
+                        body: 'Not Good!',
                         isCorrect: true
 
                     },
                     {
-                        body: "Feeling Sick!",
+                        body: 'Feeling Sick!',
                         isCorrect: true
 
                     },
                     {
-                        body: "Doing Great!",
+                        body: 'Doing Great!',
                         isCorrect: false
 
                     }
@@ -134,25 +133,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -161,25 +160,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -188,25 +187,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -215,25 +214,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -242,25 +241,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -269,25 +268,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -296,25 +295,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -323,25 +322,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -350,25 +349,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -377,25 +376,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -404,25 +403,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -431,25 +430,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -458,25 +457,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -485,25 +484,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -512,25 +511,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -539,25 +538,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -566,25 +565,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -593,25 +592,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -620,25 +619,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -647,25 +646,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -674,25 +673,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -701,25 +700,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -728,25 +727,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -755,25 +754,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -782,25 +781,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -809,25 +808,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -836,25 +835,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -863,25 +862,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -890,25 +889,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -917,25 +916,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -944,25 +943,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -971,25 +970,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -998,25 +997,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1025,25 +1024,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1052,25 +1051,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1079,25 +1078,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1106,25 +1105,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1133,25 +1132,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1160,25 +1159,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1187,25 +1186,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1214,25 +1213,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1241,25 +1240,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1268,25 +1267,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1295,30 +1294,30 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     },
                     {
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     }
@@ -1327,25 +1326,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1354,25 +1353,25 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             },
             {
-                type: "text",
-                body: "Which is not a Auto mobile brand?",
+                type: 'text',
+                body: 'Which is not a Auto mobile brand?',
                 answers: [{
-                        body: "Honda",
+                        body: 'Honda',
                         isCorrect: true
 
                     },
                     {
-                        body: "Toyota",
+                        body: 'Toyota',
                         isCorrect: true
 
                     },
                     {
-                        body: "Apple",
+                        body: 'Apple',
                         isCorrect: false
 
                     },
                     {
-                        body: "Ford",
+                        body: 'Ford',
                         isCorrect: true
 
                     }
@@ -1381,5 +1380,4 @@ angular.module('aeturnumQuizProjectPortalApp')
                 correct: null
             }
         ];
-
     });

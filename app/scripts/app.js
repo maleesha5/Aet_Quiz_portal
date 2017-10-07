@@ -20,7 +20,7 @@ angular
         'timer',
         'ui.router'
     ])
-    .config(function($stateProvider) {
+    .config(($stateProvider) => {
         $stateProvider
             .state('test', {
                 url: '/test',
@@ -52,7 +52,7 @@ angular
             templateUrl: 'views/addQuestion.html',
             controller: 'questionController',
             resolve: {
-                editQuestion: function() {
+                editQuestion() {
                     return null;
                 }
             }

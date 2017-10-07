@@ -8,31 +8,30 @@
  * Controller of the aeturnumQuizProjectPortalApp
  */
 angular.module('aeturnumQuizProjectPortalApp')
-    .controller('TestCtrl', function($uibModal, $log, $document) {
-
-        var $ctrl = this;
+    .controller('TestCtrl', function ($uibModal, $log, $document) {
+        const $ctrl = this;
         $ctrl.items = ['item1', 'item2', 'item3'];
 
         $ctrl.animationsEnabled = true;
 
-        $ctrl.open = function(size, parentSelector) {
-            var parentElem = parentSelector ?
-                angular.element($document[0].querySelector('.modal-demo ' + parentSelector)) : undefined;
-            var modalInstance = $uibModal.open({
+        $ctrl.open = function (size, parentSelector) {
+            const parentElem = parentSelector ?
+                angular.element($document[0].querySelector(`.modal-demo ${parentSelector}`)) : undefined;
+            const modalInstance = $uibModal.open({
                 animation: $ctrl.animationsEnabled,
                 ariaLabelledBy: 'modal-title',
                 ariaDescribedBy: 'modal-body',
                 templateUrl: 'views/addQuestion.html',
                 controller: 'questionController',
-                size: size,
+                size,
                 appendTo: parentElem,
                 resolve: {
-                    items: function() {
+                    items() {
                         return $ctrl.items;
                     }
                 }
             });
-        }
+        };
 
 
         this.awesomeThings = [
